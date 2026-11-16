@@ -1,0 +1,37 @@
+h1 {
+    color: #af1536;
+    margin-left: 20px
+}
+p { font-size: 25px; }
+
+div.buttons {
+    width: 300px;
+    height: 200px;
+    border-style: dotted solid double;
+    border-width: thin medium thick;
+}
+
+button {
+
+    background-color: #af1536;
+    color: rgb(235, 230, 233);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #5f5858;
+    outline: none; 
+}
+
+button:hover { background-color: rgb(90, 1, 31);}
+
+button:active {
+    background-color: rgb(90, 1, 31);
+    box-shadow: 0 5px #393535;
+    transform: translateY(4px);
+}
