@@ -15,39 +15,47 @@
 
 <body>
     <div class="container-fluid py-5 text-start text-sm-center" style="background-color: #e9ebef;">
-        <h1 class="display-5 fw-bold">First bootstrap page</h1>
-        <p class="col-md-8 fs-4">Resize this page to see responsive effect.</p>
+        <h1 class="display-5 fw-bold">BabylonJS Demonstrater</h1>
+        <p class="col-md-8 fs-4"> Five 3D scenes.</p>
     </div>
-    <blockquote class="blockquote">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-    </blockquote>
-    <h1 class="display-1 fw-bold">heading 1</h1>
 
-    <div class="container text-center">
-        <div class="row align-items-start">
-            <div class="col-2">
-                One of three columns
-            </div>
-            <div class="col-8" style="background-color: #e9ebef;">
-                One of three columns
-            </div>
-            <div class="col-2">
-                One of three columns
-            </div>
-            <div class="row">
-                <div class="col-md-3">col-md-3</div>
-                <div class="col-md-5" style="background-color: #e9ebef;">col-md-5</div>
-                <div class="col-md-4">col-md-4</div>
+    <nav class="navbar bg-body-tertiary navbar-expand-lg bg-dark" border-bottom border-body data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                Bootstrap
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Design</a>
+                    <a class="nav-link" href="#">Play Game</a>
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </div>
+
+                <span class="nav item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="color: white;">
+                    3D Scenes
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="element1/index.html">scene 1</a></li>
+                    <li><a class="dropdown-item" href="element2/index.html">scene 2</a></li>
+                    <li><a class="dropdown-item" href="element3/index.html">scene 3</a></li>
+                    <li><a class="dropdown-item" href="element4/index.html">scene 4</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="element5/index.html">scene 5</a></li>
+                </ul>
+                </span>
             </div>
         </div>
+    </nav>
 
-        <p class="fs-1">.fs-1 text</p>
-        <p class="fs-2">.fs-2 text</p>
-        <p class="fs-3">.fs-3 text</p>
-        <p class="fs-4">.fs-4 text</p>
-        <p class="fs-5">.fs-5 text</p>
-        <p class="fs-6">.fs-6 text</p>
-    </div>
 </body>
 </body>
 
